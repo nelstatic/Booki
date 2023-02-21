@@ -480,6 +480,7 @@ footer .content .rubrique a{
     nav ul li{
         border-bottom: 2px solid var(--grey-color);
         padding: 3% 17%;
+        border-top: none;
     }
     nav ul li:hover{
         border-top: 0px;
