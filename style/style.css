@@ -134,6 +134,7 @@ nav ul li a{
 .one .filtre .filtre-label{
     font-size: 18px;
     padding-right: 15px;
+    padding-top: 0.5%;
 }
 .one .filtre ul{
     list-style: none;
