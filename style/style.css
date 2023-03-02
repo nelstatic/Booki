@@ -263,7 +263,7 @@ nav ul li a{
 
 
 .populaires{
-    background: #f2F2F2;
+    background: var(--grey-color);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
