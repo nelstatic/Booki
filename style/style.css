@@ -34,7 +34,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 10px 0; */
 }
 
 nav .logo{
@@ -45,7 +44,6 @@ nav ul{
     list-style: none;
     width: 100%;
     text-align: right;
-    /* padding-right:30px ; */
 }
 
 nav ul li{
@@ -55,6 +53,7 @@ nav ul li{
 }
 nav ul li:hover{
     border-top: solid var(--blue-color) 2px ;
+    transition: 0.3s;
 }
 
 nav ul li a{
@@ -62,10 +61,8 @@ nav ul li a{
     color: black;
     padding: 23px 0 ;
 }
-/* nav ul li a:hover{
-    color: var(--blue-color);
-    border-top: solid var(--blue-color) 2px ;
-} */
+
+
 
 /********************************************************************************************************************************************************/
 
@@ -144,8 +141,8 @@ nav ul li a{
     padding: 6px 15px;
 }
 .one .filtre ul li:hover{
-
     transform: scale(1.03);
+    transition: 0.3s;
 }
 .one .filtre ul li p:hover{
     background: var(--blizzard-color);
@@ -224,6 +221,7 @@ nav ul li a{
 }
 .hebergements .card:hover{
     transform: scale(1.03);
+    transition: 0.3s;
     
 } 
 .hebergements .card img{
@@ -258,6 +256,7 @@ nav ul li a{
 }
 .voirplus:hover{
     color: var(--blue-color);
+    transition: 0.3s;
 }
 
 
@@ -317,6 +316,7 @@ nav ul li a{
 
 .populaires .card:hover{
     transform: scale(1.03);
+    transition: 0.3s;
     
 }
 
@@ -357,6 +357,7 @@ nav ul li a{
 }
 .three .activites .content .row .card:hover{
     transform: scale(1.03);
+    transition: 0.3s;
     
 }
 
@@ -492,6 +493,7 @@ footer .content .rubrique a{
     nav ul li:hover{
         border-top: 0px;
         border-bottom: 2px solid var(--blue-color);
+        transition: 0.3s;
     }
 
 
