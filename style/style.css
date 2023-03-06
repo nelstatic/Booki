@@ -5,7 +5,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+
+    /* outline: solid 1px red; */
 }
+
+
 
 body{
     max-width: 1440px;
@@ -487,7 +491,7 @@ footer .content .rubrique a{
     }
     nav ul li{
         border-bottom: 2px solid var(--grey-color);
-        padding: 3% 17%;
+        padding: 3% 16%;
         border-top: none;
     }
     nav ul li:hover{
@@ -542,10 +546,10 @@ footer .content .rubrique a{
 
     .two .populaires .content{
         margin: 0 auto;
-        width: 95%;
+        /* width: 95%; */
     }
     .two .populaires .content .card{
-        width: 85%;
+        width: 90%;
     }
     
     .two .populaires .content .card img{
