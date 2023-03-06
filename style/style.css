@@ -473,7 +473,7 @@ footer .content .rubrique a{
 @media (max-width: 768px){
 
     body{
-        padding: 0;
+        padding: 0.1%;
     }
 
     nav{
@@ -500,7 +500,7 @@ footer .content .rubrique a{
         transition: 0.3s;
     }
 
-    
+
 
     .one{
         padding: 3% 5%;
